@@ -1,0 +1,11 @@
+﻿<Solution>
+  <Project Path="XplatApp.Android/XplatApp.Android.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="XplatApp.Browser/XplatApp.Browser.csproj" />
+  <Project Path="XplatApp.Desktop/XplatApp.Desktop.csproj" />
+  <Project Path="XplatApp.iOS/XplatApp.iOS.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="XplatApp/XplatApp.csproj" />
+</Solution>
