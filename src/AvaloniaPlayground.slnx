@@ -1,3 +1,15 @@
 <Solution>
-  <Project Path="AvaloniaApp/AvaloniaApp.csproj" />
+  <Folder Name="/XplatAppFolder/">
+    <Project Path="XplatApp/XplatApp.Android/XplatApp.Android.csproj">
+      <Deploy />
+    </Project>
+    <Project Path="XplatApp/XplatApp.Browser/XplatApp.Browser.csproj" />
+    <Project Path="XplatApp/XplatApp.Desktop/XplatApp.Desktop.csproj" />
+    <Project Path="XplatApp/XplatApp.iOS/XplatApp.iOS.csproj">
+      <Deploy />
+    </Project>
+    <Project Path="XplatApp/XplatApp/XplatApp.csproj" />
+  </Folder>
+  <Project Path="MvvmApp/MvvmApp.csproj" />
+  <Project Path="SimpleApp/SimpleApp.csproj" />
 </Solution>
